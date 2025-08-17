@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --secondary: #151515;
+  --accent: #818cf8;
+  --background: #111111;
+  --card: #1e1e1e;
+  --text: #e2e8f0;
+  --text-light: #94a3b8;
+}
+
+* {
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
+}
+
+#tasklist::-webkit-scrollbar {
+  background-color: transparent;
+  height: 5px;
+}
+
+#tasklist::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 50px;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+input,
+textarea {
+  background-color: #222222 !important;
+  border-color: #333333 !important;
+  color: var(--text) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-light) !important;
+}
