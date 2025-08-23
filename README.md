@@ -29,14 +29,19 @@ and so on....
    ```bash
    git clone https://github.com/sars0903/ems-main.git
    ```
-2. Install dependencies:
+2. Navigate to the project directory:
+   ```bash
+   cd ochi-main
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```
+5. Open your browser and visit http://localhost:3000.
 
 
 
