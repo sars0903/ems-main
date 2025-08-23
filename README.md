@@ -31,7 +31,7 @@ and so on....
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ochi-main
+   cd ems-main
    ```
 3. Install dependencies:
    ```bash
