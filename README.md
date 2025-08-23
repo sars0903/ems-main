@@ -57,5 +57,5 @@ and so on....
    ```bash
    npm run dev
    ```
-5. Open your browser and visit **`localhost:3000`**
+5. Open your browser and visit **`localhost:5173`**
 
